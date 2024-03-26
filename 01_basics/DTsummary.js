@@ -27,7 +27,7 @@ let userOne = {
     email: " user@google.com",
     upi : "usesr@ybl"
 }
-// after assigning the value to another variable value of boject will get vahnge as reference is passed(heapp memeory)
+// after assigning the value to another variable value of object will get vahnge as reference is passed(heapp memeory)
 let userTwo = userOne 
 userTwo.email = "hitesh@google.com"
 console.log(userOne.email);
